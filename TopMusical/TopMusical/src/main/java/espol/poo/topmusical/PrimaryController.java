@@ -46,7 +46,7 @@ public class PrimaryController {
                 ex.printStackTrace();
             }
             Label lbT = new Label(c.getTitulo() + " \n" + c.getCantante());//titulo y cantante
-            lbT.setStyle("-fx-font-weight: bold;-fx-font-size: 14;");
+            lbT.setStyle("-fx-font-weight: bold;-fx-font-size: 15;");
 
             hb.getChildren().addAll(lbp, iv, lbT);//agregar al hbox
 
